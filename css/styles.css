@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Ubuntu+Condensed&display=swap');
+body{
+  margin:0;
+  padding:0;
+}
+.navbar{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color:black;
+  color:#fff;
+  font-family:'Ubuntu';
+}
+.navbar .logo a{
+  color:#fff;
+  font-size: 35px;
+  font-weight: 600;
+  text-decoration: none;
+  margin:.5rem;
+}
+.navbar-link ul{
+  margin:0;
+  padding:0;
+  display:flex;
+}
+.navbar-link li a{
+  color:#fff;
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 25px ;
+  text-decoration: none;
+}
+.navbar-link li{
+  list-style: none;
+  display: inline-block;
+}
+
+ .navbar-link li:hover{
+  color: #1b1b1b;
+  background: #fff;
+}
+@media(max-width: 940px){
+ nav ul{
+   position: fixed;
+   top: 80px;
+   left:0;
+   background: #111;
+}
